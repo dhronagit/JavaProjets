@@ -10,6 +10,7 @@ public class UserFormController extends HttpServlet {
 	public void service(HttpServletRequest reqest,HttpServletResponse response) {
         
 		  System.out.println("request form client");
+		  System.out.println("request form client 2");
 	}
 
 }
