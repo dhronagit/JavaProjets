@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>DevolapServer</servlet-name>
+		<servlet-class>com.servlet.colled.Servers</servlet-class>
+	</servlet>
+	
+	
+  <servlet-mapping>
+       <servlet-name>DevolapServer</servlet-name>
+       <url-pattern>/s</url-pattern>
+  </servlet-mapping>
+
+</web-app>
